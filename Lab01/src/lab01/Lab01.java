@@ -17,7 +17,20 @@ public class Lab01 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        System.out.println("-------CLASSWORK-------");
         Scanner input = new Scanner(System.in);
+        
+        System.out.println("Enter Integer: ");
+        int Integer=input.nextInt();
+        input.nextLine();
+        System.out.println(Integer);
+        
+        System.out.println("Please enter any string: ");
+        String string=input.nextLine();
+        System.out.println(string);
+        
+        
+        
         System.out.println("Please enter name: ");
         String Name = input.nextLine();
         System.out.println(Name);
