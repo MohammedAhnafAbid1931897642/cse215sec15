@@ -143,6 +143,75 @@ public class Lab04 {
         System.out.println(" Second last occurrence of vowel is at " + prevVow + " the current occurrence of vowel is at " + currVow );
         
         
+        System.out.println("-------------Additional Task From Book---------------");
+        
+        Scanner str= new Scanner(System.in);
+        
+        String string1;
+        String string2;
+        
+        System.out.println("Enter string 1:");
+        string1= str.nextLine();
+        System.out.println("Enter string 2 to compare it with string 1:");
+        string2= str.nextLine();
+        
+        if(string2.equals(string1))
+            System.out.println("string 2 is equal to string 1");
+        else
+            System.out.println("string 2 is not equal to string 1");
+        
+        if(string2.equalsIgnoreCase(string1))
+            System.out.println("string 2 is equal to string 1 regardless of case");
+        else
+            System.out.println("string 2 is not equal to string 1 regardless of case");
+        
+        if(string2.compareTo(string1)==0)
+            System.out.println("string 2 length is equal to string 1 ");
+        else
+            if(string2.compareTo(string1)>0)
+                System.out.println("string 2 length is greater than string 1");
+            else
+                System.out.println("string 2 length is less than string 1");
+        
+        if(string2.compareToIgnoreCase(string1)==0)
+            System.out.println("string 2 length is equal to string 1 regardless of case");
+        else
+            if(string2.compareToIgnoreCase(string1)>0)
+                System.out.println("string 2 length is greater than string 1 regardless of case");
+            else
+                System.out.println("string 2 length is less than string 1 regardless of case");
+        
+        if(string2.startsWith("Race"))
+                System.out.println("string 2 starts with Race");
+        
+        
+        if(string2.startsWith("car"))
+            System.out.println("string 2 ends with car");
+        
+        if(string2.contains(string1))
+            System.out.println("string 2 is a substring of string 1");
+        
+        System.out.println(string2.substring(2));
+        
+        System.out.println(string2.substring(2,5));
+        
+        
+        //System.out.println("Racecar".indexOf('R'));
+        //System.out.println("Racecar"5.5.lastIndexOf('R'));
+        
+        
+        
+            
+                
+       
+      
+                
+        
+        
+            
+        
+        
+        
         
             
         
