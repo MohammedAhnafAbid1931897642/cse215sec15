@@ -31,7 +31,7 @@ public class Circle {
         return(2*Math.PI*Circle.radius);
     }
     
-    double recArea(Circle Circle){
+    double circArea(Circle Circle){
         return(Math.PI*radius*radius);
         
     }

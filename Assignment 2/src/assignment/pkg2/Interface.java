@@ -57,7 +57,7 @@ public class Interface {
         
         System.out.println(C1.getRadius());
         System.out.println("Circumference of circle: " + C1.circCircumference(C1));
-        System.out.println("Area of circle: " + C1.recArea(C1));
+        System.out.println("Area of circle: " + C1.circArea(C1));
         
         //RECTANGLE input output
         System.out.println("Enter Rectangle length: ");

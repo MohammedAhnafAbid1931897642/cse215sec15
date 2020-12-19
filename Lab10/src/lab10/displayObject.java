@@ -9,36 +9,49 @@ package lab10;
  *
  * @author ahnaf
  */
-public class displayObject extends GeometricObject{
-    
-    public double displayObject(Object object)
+public class displayObject {
+        public static void displayObject(Object object)
    {
-       if(object instanceof Triangle)
-       {
+       if(object instanceof Triangle){
+           System.out.println("Triangle Area: ");
            double area=((Triangle) object).getArea();
-           return area;
+           System.out.println(area);
            
      
        }
        
         if(object instanceof Triangle){
+           System.out.println("Triangle Perimeter: ");
            double perimeter=((Triangle) object).getPerimeter();
-           return perimeter;
+           System.out.println(perimeter);
            
      
        }
         
         if(object instanceof Triangle){
-            System.out.print(((Triangle) object).toString());
+            System.out.println("Triangle String ");
+            System.out.println(((Triangle) object).toString());
         }
         
-        
-        return 0;
-        
-   
-       
-   
-       
+        if(object instanceof Rectangle){
+           System.out.println("Rectangle Area: ");
+           double area=((Rectangle) object).getArea();
+           System.out.println(area);
+           
      
-   }
+       }
+       
+        if(object instanceof Rectangle){
+           System.out.println("Rectangle Perimeter: ");
+           double perimeter=((Rectangle) object).getPerimeter();
+           System.out.println(perimeter);
+           
+     
+       }
+        
+        if(object instanceof Rectangle){
+            System.out.println("Rectangle String: ");
+            System.out.println(((Rectangle) object).toString());
+        }      
+}   
 }

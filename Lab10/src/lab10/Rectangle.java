@@ -37,8 +37,6 @@ public class Rectangle extends GeometricObject {
         
     }
     
-    
-    
     double getPerimeter(){
         return(2*(length+width));
         
