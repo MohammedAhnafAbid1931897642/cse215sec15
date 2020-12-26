@@ -16,11 +16,13 @@ import java.util.Calendar;
 public class BackEndDev extends DBA {
     //initializing variables for BackendDev
     public String working_since;
-    private String project_name;
-    private int team_members;
-    public boolean scrum_master;
-    private String server_side_framework;
+    public String project_name;
+    public int team_members;
+    public String server_side_framework;
    
+    BackEndDev(){
+        
+    }
     
     public BackEndDev(String name, int id, double salary, String working_since){
         this.name=name;

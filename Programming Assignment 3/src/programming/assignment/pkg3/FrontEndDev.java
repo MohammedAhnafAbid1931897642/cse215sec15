@@ -12,20 +12,29 @@ import java.util.Calendar;
  * @author ahnaf
  */
 public class FrontEndDev extends BackEndDev {
-    private String working_since;
+    public String working_since;
     private String project_name;
     private int team_members;
-    private String team_leader;
+    public String team_leader;
     private String front_end_framework;
+    public boolean scrum_master=true;
+    
+    FrontEndDev(){
+        
+    }
     
     
-    public FrontEndDev(super(name, id, salary, working_since), boolean scrum_master, String team_leader){
+    public FrontEndDev(String name, int id, double salary, String working_since, boolean scrum_master, String team_leader){
+        this.name=name;
+        this.id=id;
+        this.salary=salary;
+        this.working_since=working_since;
         this.scrum_master=scrum_master;
         this.team_leader=team_leader;
      
     }
     
-     void printEmploymentYears(String working_since){
+     public void printEmploymentYears(String working_since){
         int i= Integer.parseInt(working_since);
         //finding integer value of current year
         int currentyear= Calendar.getInstance().get(Calendar.YEAR);

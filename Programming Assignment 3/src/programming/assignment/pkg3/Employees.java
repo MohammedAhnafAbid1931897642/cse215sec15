@@ -15,6 +15,10 @@ public class Employees {
     public String email;
     public double salary;
     
+    Employees(){
+        
+    }
+    
     public Employees(String name, int id, double salary){
         this.name=name;
         this.id=id;

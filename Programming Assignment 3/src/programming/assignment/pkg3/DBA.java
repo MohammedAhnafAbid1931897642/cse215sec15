@@ -6,6 +6,7 @@
 package programming.assignment.pkg3;
 //declaring class BackEndDev
 import java.util.Calendar;
+import java.lang.Integer;
 
 /**
  *
@@ -14,10 +15,14 @@ import java.util.Calendar;
 public class DBA extends Employees{
     
     
-    private String project_name;
-    private int team_members;
-    private String query_language;
+    public String project_name;
+    public int team_members;
+    public String query_language;
     public String working_since;
+    
+    DBA(){
+        
+    }
     
     public DBA(String name, int id, double salary, String working_since){
         this.name=name;
@@ -30,10 +35,10 @@ public class DBA extends Employees{
     }
     
     void printEmploymentYears(String working_since){
-        int i= Integer.parseInt(working_since);
+        Integer x = Integer.valueOf(working_since);
         //finding integer value of current year
         int currentyear= Calendar.getInstance().get(Calendar.YEAR);
-        int years=currentyear-i;
+        int years=currentyear-x;
         System.out.println("Employed for: " + years + " years.");
         
     }
