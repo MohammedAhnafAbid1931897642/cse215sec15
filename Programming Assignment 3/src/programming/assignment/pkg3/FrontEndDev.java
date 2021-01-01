@@ -22,8 +22,6 @@ public class FrontEndDev extends BackEndDev {
     FrontEndDev(){
         
     }
-    
-    
     public FrontEndDev(String name, int id, double salary, String working_since, boolean scrum_master, String team_leader){
         this.name=name;
         this.id=id;
@@ -46,19 +44,11 @@ public class FrontEndDev extends BackEndDev {
     void assignProject(String project_name, int team_members, String front_end_framework){
         this.project_name=project_name;
         this.team_members=team_members;
-        this.front_end_framework=front_end_framework;
-        
-        
+        this.front_end_framework=front_end_framework; 
     }
     
     void printAssignedProject(){
         System.out.println("Project name: " + project_name+ " No. of team members: " + team_members + " Server side framework: " + front_end_framework);
         
     }
-    
-    
-    
-    
-    
-    
 }

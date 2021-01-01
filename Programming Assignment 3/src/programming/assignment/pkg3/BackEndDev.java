@@ -29,13 +29,8 @@ public class BackEndDev extends DBA {
         this.id=id;
         this.salary=salary;
         this.working_since=working_since;
-        
-       
-        
-        
     }
     
-
     
     void printEmploymentYears(String working_since){
         int i= Integer.parseInt(working_since);
@@ -56,8 +51,5 @@ public class BackEndDev extends DBA {
     void printAssignedProject(){
         System.out.println("Project name: " + project_name+ " No. of team members: " + team_members + " Server side framework: " + server_side_framework);
     }
-    
-    
-    
     
 }
