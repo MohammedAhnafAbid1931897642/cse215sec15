@@ -31,6 +31,8 @@ public class Patient {
         this.age=age;
         System.out.println("Success!");
         
+    
+        
     }
     
     public static void main(String[] args)
