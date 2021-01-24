@@ -22,7 +22,9 @@ public class Q1{
         
         int a=1234;
         c.setVehicle_CC(a);
+        t.setVehicle_CC(a);
         
+        double circlearea= Math.PI*5*5;
         
         
         

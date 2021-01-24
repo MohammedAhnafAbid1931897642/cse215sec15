@@ -11,6 +11,38 @@ import java.util.Scanner;
  * @author ahnaf
  */
 public class Lab01 {
+    
+    int variable=100;
+    double yellow=50;
+
+    public Lab01() {
+    }
+
+    public int getVariable() {
+        return variable;
+    }
+
+    public void setVariable(int variable) {
+        this.variable = variable;
+    }
+
+    public double getYellow() {
+        return yellow;
+    }
+
+    public void setYellow(double yellow) {
+        this.yellow = yellow;
+    }
+    
+    
+
+    @Override
+    public String toString() {
+        return "Lab01{" + "variable=" + variable + ", yellow=" + yellow + '}';
+    }
+    
+    
+    
 
     /**
      * @param args the command line arguments

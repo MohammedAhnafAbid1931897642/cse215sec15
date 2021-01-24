@@ -4,18 +4,12 @@
  * and open the template in the editor.
  */
 package q1;
-
 /**
  *
  * @author ahnaf
  */
-public abstract class VehicleService {
-
-    public VehicleService() {
-    }
+public interface Comparable {
+    public int compareTo(Object o); 
     
-    
-    
-
     
 }
